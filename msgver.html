@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MNP-MSG-VER</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='node_modules/web3/dist/web3.min.js'></script>
+</head>
+
+<body>
+
+    MNP-MSG-VER Main page<br >
+
+    Enter the two identifying numbers of the document in order to verify the authenticity and the content. <br><br>
+    Status: <span id="status">Loading... Please don't use the app yet. If the error persists, contact with the page administrator.</span><br><br>
+    <input type="text" id="inputNum1" placeholder="num1">
+    <input type="text" id="inputNum2" placeholder="num2">
+    
+    <button onclick="submitNums()">Submit</button><br>
+    <span id="isCorrect"></span>
+    <br /><br />
+    
+    Text: <span id="text"></span><br>
+
+    Date: <span id="date"></span><br>
+    
+    Ownability: <span id="ownability"></span><br>
+    
+    If the document is ownable, enter a name below and press submit in order to generate a personal signed NFT.<br>
+    Be aware that the name can only be choosen one time. <br>
+    <input type="text" id="inputname" placeholder="e.g. Juan Pérez Pérez">
+    <button onclick="processInput()">Submit</button><br>
+
+    <script src = msgver.js></script>
+    <a href="index.html">Go back to the main page</a><br>
+</body>
+
+</html>
