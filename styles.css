@@ -1,0 +1,90 @@
+/* Add some styling to the menu */
+nav {
+  background-color: rgba(0, 0, 0, 0.5); /* black color with 50% opacity */
+  border-radius: 10px; /* round borders */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+  
+nav ul {
+  list-style: none;
+  display: flex;
+}
+  
+nav li {
+  margin: 0 10px;
+}
+
+nav whereami {
+  float:left;
+  text-decoration: underline;
+}
+
+nav darklight {
+  margin-left: auto;
+  padding-right: 70px;
+}
+  
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background: linear-gradient(to right, plum, lightblue);
+}
+  
+.logo {
+  background-image: url('images/personal_logo.png');
+  background-size: cover; /* scale the image to cover the entire element */
+  background-repeat: no-repeat; /* don't repeat the image */
+  width: 250px; /* set the width of the element */
+  height: 300px; /* set the height of the element */
+  margin: auto;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.square {
+  background-color: rgba(0, 0, 0, 0.3); /* black color with 50% opacity */
+  border-radius: 10px; /* round borders */
+  width: 100%;
+  height: 100px;
+}
+  
+.square h1 {
+  padding-left: 70px;
+  padding-top: 10px;
+  color: white;
+}
+  
+.square h2 {
+  padding-left: 70px;
+  color: white;
+}
+
+.appcontainer {
+  background-color: rgba(0, 0, 0, 0.1); /* black color with 50% opacity */
+  border-radius: 10px; /* round borders */
+  width: 40%;
+  height: 100px;
+  z-index: 1;
+}
+.maincontainer {
+  background-color: rgba(0, 0, 0, 0); /* black color with 50% opacity */
+  border-radius: 10px; /* round borders */
+  width: 100%;
+  height: 100px;
+  z-index: -2;
+  display: flex;
+}
+
+.repocontainer {
+  background-color: rgba(0, 0, 0, 0.1); /* black color with 50% opacity */
+  border-radius: 10px; /* round borders */
+  width: 40%;
+  height: 100px;
+  z-index: 1;
+}
