@@ -2,13 +2,12 @@
 <html>
    <head>
       <title>Marco Nieto Personal</title>
-      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" type="text/css" href="indexstyles.css">
    </head>
    <body>
       <script src = indexscript.js></script>
       <nav>
          <ul>
-            <whereami><a style="font-family: Arial; font-size: 14px;">Browsing main page</a></whereami>
             <li><a href="index.html" style="font-family: Arial; font-size: 14px;">Home</a></li>
             <li><a href="#" style="font-family: Arial; font-size: 14px;">Contact</a></li>
             <li><a href="https://github.com/Mnietoprez" style="font-family: Arial; font-size: 14px;">GitHub</a></li>
@@ -16,19 +15,31 @@
             <li><a href="#" style="font-family: Arial; font-size: 14px;">CV</a></li>
             
          </ul>
-            <darklight><a onclick=darklighttoggle() style="font-family: Arial;  font-size: 25px;">💡</a></darklight>
+            <darklight><a onclick=darkLightToggle() style="font-family: Arial;  font-size: 30px;">◐</a></darklight>
       </nav>
       <header>
          <div class="square">
-            <h1  style="font-family: Arial; font-size: 27px;">Marco Nieto Pérez</h1>
-            <h2  style="font-family: Arial; font-size: 20px;">Personal Portfolio</h1>
+            <h1 style="font-family: Arial; font-size: 35px;">Marco Nieto Pérez</h1>
+            <h2 style="font-family: Arial; font-size: 17px;">Personal Portfolio</h1>
          </div><br>
       </header>
       <main>
          <div class="maincontainer"> 
-            <div class="appcontainer"></div>
+            <div class="pubcontainer">
+               <h1 style="font-family: Arial; font-size: 27px;">Recent publications:</h1>
+               <p><span style="font-family: Arial; font-size: 15px;">24/12/2022 This is an example of a publication   </span><button onclick= openExample()>⤓</button></p>
+               
+               <a href="publications/publications.html" style="font-family: Arial; font-size: 14px;">View all publications</a>
+            </div>
             <div class="logo"></div>
-            <div class="repocontainer"></div>
+            <div class="repocontainer">
+               <h1 style="font-family: Arial; font-size: 27px;">Highlighted GitHub repos:</h1>
+               <img id="idr1" alt="Github repo 1">
+               <img id="idr2" alt="Github repo 2">
+            </div>
+         </div>
+         <div class="appcontainer">
+            <h1 style="font-family: Arial; font-size: 27px;">Apps:</h1>
          </div>
          
          
