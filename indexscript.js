@@ -42,7 +42,7 @@ function darkLightToggle() {
     }   
 }
 
-function openExample(){
-    window.open("publications/test.pdf");
+function openP1(){
+    window.open("publications/QGP-phase-transition.pdf");
 }   
 
