@@ -46,3 +46,6 @@ function openP1(){
     window.open("publications/QGP-phase-transition.pdf");
 }   
 
+function openP2(){
+    window.open("publications/newton-fractal.pdf");
+}   
