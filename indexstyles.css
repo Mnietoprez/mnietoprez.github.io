@@ -49,7 +49,7 @@ body {
 }
 
 .pubcontainer {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0);
   width: 40%;
   height: 470px;
   z-index: 1;
@@ -74,10 +74,12 @@ body {
   padding-bottom: 27px;
   position: absolute;
   bottom: 0;
+  font-family: Arial;
+  font-size: 14px;
 }
 
 .maincontainer {
-  background-color: rgba(0, 0, 0, 0); 
+  background-color: rgba(0, 0, 0, 0.1); 
   border-radius: 10px; 
   width: 100%;
   height: 470px;
@@ -86,31 +88,37 @@ body {
 }
 
 .leftcontainer {
-  background-color: rgba(0, 0, 0, 0.1);  
+  background-color: rgba(0, 0, 0, 0);  
+  width: 30%;
+  height: 470px;
+  z-index: 1;
+  position: relative;
+}
+.leftrepocontainer {
+  background-color: rgba(0, 0, 0, 0);  
+  width: 100%;
+  height: 310px;
+  z-index: 1;
+}
+
+.rightcontainer {
+  background-color: rgba(0, 0, 0, 0); 
   width: 30%;
   height: 470px;
   z-index: 1;
 }
 
-.rightcontainer {
-  background-color: rgba(0, 0, 0, 0.1); 
-  width: 30%;
-  height: 443px;
-  z-index: 1;
-  padding-bottom: 27px;
-}
-
-.leftcontainer img{
+.leftrepocontainer img{
   padding-left: 30px;
   width: 85%;
-  height: auto;
+  height: 48%;
   z-index: 2;
 }
 
 .rightcontainer img{
   z-index: 2;
   width: 85%;
-  height: auto;
+  height: 30%;
   padding-left: 20px;
 }
 
@@ -120,25 +128,23 @@ body {
   color: white;
 }
 
-.rightcontainer h1{
-  padding-left: 50px;
-  padding-top: 10px;
-  color: white;
-}
-
 .leftcontainer a{
   padding-left: 30px;
   color: white;
   text-decoration: underline;
-  position:relative;
-  bottom:0px
-  
+  padding-bottom: 27px;
+  position: absolute;
+  bottom: 0;
+  font-family: Arial;
+  font-size: 14px;
 }
 
 .appcontainer{
   background-color: rgba(0, 0, 0, 0.1); 
   width: 100%;
-  height: 400px;
+  height: 1000px;
+  padding-left: 4px;
+  display:block;
 }
 
 .appcontainer h1{
@@ -147,13 +153,34 @@ body {
   color: white;
 }
 
-
-.appcontainer p {
-  padding-left: 70px;
-  color: white;
+.projectcontainer {
+  width:100%;
+  height: 900px;
+  background-color: rgba(165, 42, 42, 0);
+  display: flex;
 }
 
-.appcontainer a {
+.project {
+  width:25.3%;
+  height: 200px;
+  background-color: rgba(100, 2, 100, 0.2);
+  text-align: center;
+  border-radius:10px ;
+}
+
+.vspace {
+  width:6%;
+  height: 300px;
+  background-color: rgba(165, 42, 42, 0);
+}
+
+.project p {
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.project a {
   padding-left: 20px;
   color: white;
   text-decoration: underline;

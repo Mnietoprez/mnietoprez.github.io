@@ -18,5 +18,5 @@ function darkLightToggle() {
 }
 
 function openCV()  {
-    window.open("../documents/CV-english.pdf");
+    window.open("../../documents/CV-english.pdf");
 }
