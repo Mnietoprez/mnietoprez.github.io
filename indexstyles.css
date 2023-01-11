@@ -163,9 +163,11 @@ body {
 .project {
   width:25.3%;
   height: 200px;
-  background-color: rgba(100, 2, 100, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius:10px ;
+  z-index: 2;
+  display:block;
 }
 
 .vspace {
@@ -174,10 +176,28 @@ body {
   background-color: rgba(165, 42, 42, 0);
 }
 
+.projectimage {
+  width:100%;
+  height: 76%;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  border-radius:10px ;
+  z-index: 2;
+}
+
+.projectimage img {
+  width:100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 10px;
+}
+
 .project p {
   color: white;
   font-family: Arial;
   font-size: 15px;
+  z-index: 3;
 }
 
 .project a {
@@ -186,4 +206,5 @@ body {
   text-decoration: underline;
   font-family: Arial;
   font-size: 14px;
+  z-index: 3;
 }
