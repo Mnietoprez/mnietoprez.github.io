@@ -49,3 +49,11 @@ function openP1(){
 function openP2(){
     window.open("publications/newton-fractal.pdf");
 }   
+
+function enciende1(){
+    document.imglang1.opacity= "100%" ;
+}   
+
+function apaga1(){
+    document.imglang1.opacity = "0%" ;
+}   
