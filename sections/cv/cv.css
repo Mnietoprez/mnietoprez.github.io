@@ -1,110 +1,134 @@
 nav {
-    background-color: rgba(0, 0, 0, 0.5); /* black color with 50% opacity */
-    border-radius: 10px; /* round borders */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 20px;
-  }
-    
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-    
-  nav li {
-    margin: 0 10px;
-  }
+  background-color: rgba(0, 0, 0, 1); 
+  width:99%;
+  top: 0;
+  border-radius: 0px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 50;
+}
   
-  nav darklight {
-    margin-left: auto;
-    padding-right: 70px;
-  }
-    
-  nav a {
-    text-decoration: none;
-    color: white;
-  }
+nav ul {
+  list-style: none;
+  display: flex;
+}
   
-  body {
-    background: linear-gradient(to right, black, Lightslategray);
-  }
+nav li {
+  margin: 0 10px;
+}
+
+nav darklight {
+  margin-left: auto;
+  padding-right: 70px;
+}
   
-  .square {
-    background-color: rgba(0, 0, 0, 0.3); /* black color with 50% opacity */
-    border-radius: 10px; /* round borders */
-    width: 100%;
-    height: 110px;
-  }
-    
-  .square h1 {
-    padding-left: 70px;
-    padding-top: 10px;
-    color: white;
-  }
-    
-  .square h2 {
-    padding-left: 70px;
-    color: white;
-  }
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(to bottom, black, rgb(42, 42, 42));
+}
+
+h1 {
+  color: white;
+  font-family: Arial; 
+}
+
+h2 {
+  color: white;
+  font-family: Arial; 
+}
+
+p {
+  color: white;
+  font-family: Arial; 
+}
+
+a {
+  color: white;
+  font-family: Arial; 
+  text-decoration: underline;
+}
+
+.title {
+  background-color: rgba(0, 0, 0, 0); 
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
   
-  .maincontainer {
-    background-color: rgba(0, 0, 0, 0); /* black color with 50% opacity */
-    border-radius: 10px; /* round borders */
-    width: 100%;
-    height: 400px;
-    z-index: -2;
-    display: flex;
-  }
-
-  .profilecontainer{
-    background-color: rgba(0, 0, 0, 0.1); /* black color with 50% opacity */
-    border-radius: 10px; /* round borders */
-    width: 25%;
-    height: 350px;
-    z-index: 1;
-    position: relative;
-  }
-
-  .profilecontainer img{
-    padding-left: 70px;
-    color: white;
-    position: relative;
-    width:50%;
-    height: auto;
-    bottom:0;
-    padding-top: 30px;
-  }
-
-  .textcontainer{
-    background-color: rgba(0, 0, 0, 0.1); /* black color with 50% opacity */
-    border-radius: 10px; /* round borders */
-    width: 75%;
-    height: 350px;
-    z-index: 1;
-    position: relative;
-  }
-
-  .textcontainer h1{
-    padding-left: 20px;
-    padding-top: 10px;
-    color: white;
-  }
-
-  .textcontainer p{
-    padding-left: 20px;
-    color: white;
-  }
-
-  .awardcontainer{
-    background-color: rgba(0, 0, 0, 0.1); /* black color with 50% opacity */
-    border-radius: 10px; /* round borders */
-    width: 100%;
-    height: 400px;
-  }
+.title h1 {
+  font-size: 60px;
+}
   
-  .awardcontainer h1{
-    padding-left: 70px;
-    padding-top: 20px;
-    color: white;
+.title h2 { 
+  font-size: 24px;
+}
+
+.vspace{
+  width: 100%;
+  height: 0px;
+}
+
+.hspace {
+  width:0px;
+  height: 100%;
+}
+  
+.maincontainer {
+  background-color: rgba(0, 0, 0, 0.3); 
+  border-radius: 10px; 
+  width: 100%;
+  height: 270px;
+  z-index: -2;
+  display: flex;
+}
+
+.profilecontainer{
+  background-color: rgba(0, 0, 0, 0); 
+  border-radius: 10px; 
+  width: 25%;
+  height: 270px;
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+}
+
+.profilecontainer img{
+  width:50%;
+  height: auto;
   }
+
+.textcontainer{
+  background-color: rgba(0, 0, 0, 0); 
+  border-radius: 10px;
+  width: 50%;
+  height: 350px;
+  z-index: 1;
+  position: relative;
+}
+
+.textcontainer h1{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.textcontainer p{
+  padding-left: 20px;
+}
+
+.awardcontainer{
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+  
+.awardcontainer h1{
+  padding-left:0px;
+  padding-top: 20px;
+}
