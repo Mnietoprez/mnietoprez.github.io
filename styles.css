@@ -1,10 +1,13 @@
 nav {
-  background-color: rgba(0, 0, 0, 0.5); 
-  border-radius: 10px; 
+  background-color: rgba(0, 0, 0, 1); 
+  width:99%;
+  top: 0;
+  border-radius: 0px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
+  position: fixed;
+  z-index: 50;
 }
   
 nav ul {
@@ -22,69 +25,111 @@ nav darklight {
 }
   
 nav a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }
 
 body {
-  background: linear-gradient(to right, black, Lightslategray);
+  background: linear-gradient(to bottom, black, rgb(42, 42, 42));
 }
 
-.square {
-  background-color: rgba(0, 0, 0, 0.3); 
-  border-radius: 10px; 
+h1 {
+  color: white;
+  font-family: Arial; 
+}
+
+h2 {
+  color: white;
+  font-family: Arial; 
+}
+
+p {
+  color: white;
+  font-family: Arial; 
+}
+
+a {
+  color: white;
+  font-family: Arial; 
+  text-decoration: underline;
+}
+
+.title {
+  background-color: rgba(0, 0, 0, 0); 
   width: 100%;
-  height: 110px;
+  height: 300px;
+  text-align: center;
 }
   
-.square h1 {
-  padding-left: 70px;
-  padding-top: 10px;
-  color: white;
+.title h1 {
+  font-size: 60px;
 }
   
-.square h2 {
-  padding-left: 70px;
-  color: white;
+.title h2 { 
+  font-size: 24px;
+}
+
+.vspace{
+  width: 100%;
+  height: 0px;
+}
+
+.hspace {
+  width:6%;
+  height: 300px;
+}
+
+.maincontainer {
+  background-color: rgba(0, 0, 0, 0);  
+  width: 100%;
+  height: 400px;
+  z-index: -2;
+  display: flex;
 }
 
 .pubcontainer {
+  background-color: rgba(145, 1, 1, 0);
+  width: 36.4%;
+  height: 400px;
+  z-index: 1;
+  position: relative;
+  display:block;
+}
+
+.prepubs {
   background-color: rgba(0, 0, 0, 0);
-  width: 40%;
-  height: 470px;
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+  position: relative;
+  display:flex;
+}
+
+.pubs {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
   z-index: 1;
   position: relative;
 }
 
 .pubcontainer h1 {
-  padding-left: 70px;
   padding-top: 10px;
-  color: white;
 }
 
-.pubcontainer p {
-  padding-left: 70px;
-  color: white;
+.pubs p {
+  padding-left:10px;
+  padding-right:10px;
+  font-size: 15px;
 }
 
-.pubcontainer a {
-  padding-left: 70px;
-  color: white;
-  text-decoration: underline;
+.pubs a {
+  padding-left:10px;
   padding-bottom: 27px;
   position: absolute;
   bottom: 0;
-  font-family: Arial;
   font-size: 14px;
-}
-
-.maincontainer {
-  background-color: rgba(0, 0, 0, 0.1); 
-  border-radius: 10px; 
-  width: 100%;
-  height: 470px;
-  z-index: -2;
-  display: flex;
 }
 
 .languagecontainer {
@@ -92,14 +137,12 @@ body {
   width: 60%;
   height: 470px;
   display:block;
-
 }
 
 .languagecontainer h1 {
-  padding-left: 30px;
+
+  padding-left: 6%;
   padding-top: 10px;
-  color: white;
-  font-family: Arial;
   font-size: 27px;
 }
 
@@ -112,7 +155,7 @@ body {
 }
 
 .languageapp {
-  background-color: rgba(0, 0, 0, 0.5);  
+  background-color: rgba(0, 0, 0, 0.3);  
   width: 92%;
   height: 300px;
   display:flex;
@@ -138,22 +181,17 @@ body {
 }
 
 .langpreview h1 {
-  Color:white;
   font-size: 25px;
   padding-left:0px;
 }
 
 .langpreview a {
-  Color:white;
   font-size: 20px;
-  font-style:underline;
 }
 
 .langpreview p {
-  Color:white;
   font-size: 14px;
   padding-left:31px;
-  font-family: Arial;
   padding-left:0px;
 }
 
@@ -199,40 +237,33 @@ body {
   transition: 0.3s;
   transform:scaleX(1.1);
   filter:blur(0px);
-  background: linear-gradient(to right, rgba(0, 109, 252, 0.4), rgba(166, 0, 255, 0.4));
 }
 
 .languages .language2:hover {
   transition: 0.3s;
   transform:scaleX(1.1);
   filter:blur(0px);
-  background: linear-gradient(to right, rgba(136, 73, 0, 0.4), rgba(255, 60, 0, 0.4));
 }
 
 .languages .language3:hover {
   transition: 0.3s;
   transform:scaleX(1.1);
   filter:blur(0px);
-  background: linear-gradient(to right, rgb(213, 202, 0), rgba(255, 174, 0, 0.4));
 }
 
 .languages .language4:hover {
   transition: 0.3s;
   transform:scaleX(1.1);
   filter:blur(0px);
-  background: linear-gradient(to right, rgb(51, 255, 0, 0.4), rgba(162, 255, 0, 0.4));
 }
 
 .languages .language5:hover {
   transition: 0.3s;
   transform:scaleX(1.1);
   filter:blur(0px);
-  background: linear-gradient(to right, rgb(255, 0, 204, 0.4), rgba(253, 0, 84, 0.4));
 }
 
 .languages h1 { 
-  color:white;
-  font-family: arial;
   font-size: 15px;
   padding-left:0px;
 }
@@ -241,10 +272,8 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  text-align: center;
   z-index: 4;
-  background: rgba(0,0,0,.3);
-  
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .language2 { 
@@ -252,7 +281,7 @@ body {
   height: 100%;
   border-radius: 10px;
   z-index: 4;
-  background: rgba(0,0,0,.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .language3 { 
@@ -260,7 +289,7 @@ body {
   height: 100%;
   border-radius: 10px;
   z-index: 4;
-  background: rgba(0,0,0,.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 
@@ -269,7 +298,7 @@ body {
   height: 100%;
   border-radius: 10px;
   z-index: 4;
-  background: rgba(0,0,0,.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .language5 { 
@@ -278,26 +307,27 @@ body {
   border-radius: 10px;
   z-index: 4;
   
-  background: rgba(0,0,0,.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .appcontainer{
   background-color: rgba(0, 0, 0, 0.1); 
   width: 100%;
-  height: 1000px;
+  height: 600px;
   padding-left: 4px;
   display:block;
+  text-align: center;
 }
 
 .appcontainer h1{
   padding-left: 70px;
-  padding-top: 20px;
-  color: white;
+  padding-top: 40px;
+  font-size: 40px;
 }
 
 .projectcontainer {
   width:100%;
-  height: 900px;
+  height: 400px;
   background-color: rgba(165, 42, 42, 0);
   display: flex;
 }
@@ -312,16 +342,10 @@ body {
   display:block;
 }
 
-.vspace {
-  width:6%;
-  height: 300px;
-  background-color: rgba(165, 42, 42, 0);
-}
-
 .projectimage {
   width:100%;
   height: 76%;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0,0,0,0);
   text-align: center;
   border-radius:10px ;
   z-index: 2;
@@ -336,17 +360,12 @@ body {
 }
 
 .project p {
-  color: white;
-  font-family: Arial;
   font-size: 15px;
   z-index: 3;
 }
 
 .project a {
   padding-left: 20px;
-  color: white;
-  text-decoration: underline;
-  font-family: Arial;
   font-size: 14px;
   z-index: 3;
 }
