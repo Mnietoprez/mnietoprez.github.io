@@ -34,13 +34,70 @@
                 <p style="font-family: Arial; font-size: 15px;">Marco Nieto is a valencian student, currently pursuing his degree at the Polythecnic
                 university of Valencia. During his academic career he has been involved in many STEM-related projects and events, such as the national physics
                 olympiad or a blockchain programming group, among others.</p>
-                <p><span style="font-family: Arial; font-size: 15px;">A copy of my CV can be accessed </span><a onclick= openCV() style="text-decoration: underline">through this link.</a> Updated on 25/12/2003 </p>
+                <p><span style="font-family: Arial; font-size: 15px;">A copy of my CV can be accessed </span><a onclick= openCV() style="text-decoration: underline; cursor: pointer;">through this link.</a> Updated on 25/12/2003 </p>
             </div> 
             <div class="hspace" style="width: 25%"></div> 
         </div> 
         <div class="vspace" style="height: 40px"></div> 
         <div class = "awardcontainer">
-            <h1 style="font-family: Arial; font-size: 25px;">Awards</h1>
+            <h1 style="font-family: Arial; font-size: 25px;">Achievements</h1>
+
+            <div class="award" style="height:200px">
+               <div class="hspace" style="width:10%;"></div>
+               <div class="textaward" style="height:200px">
+                  <h1> Physics engeneering honourable mentions. </h1>
+                  <h2> 2021-2023</h2>
+               </div>
+               <div class="mentioncontainer">
+                  <div class="vspace" style="height:10%;"></div>
+                  <div class="adjustmention">
+                     <div class="hspace" style="width:5%;"></div>
+                     <div class="slidecontainer">
+                        <div class="slide">
+                           <img src="../../images/wip.jpg" alt="Imagen 1">
+                        </div>   
+                        <div class="slide">
+                           <img src="../../images/wip.jpg" alt="Imagen 2">
+                        </div>
+                        <div class="slide">
+                           <img src="../../images/wip.jpg" alt="Imagen 3">
+                        </div>
+                        <button class="btn btn-next" id="btnnext" onClick=nextsl()>></button>
+                        <button class="btn btn-prev" id="btnprev" onClick=prevsl()><</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="hspace" style="width:10%;"></div>
+            </div>
+            <br>
+
+            <div class="award">
+               <div class="hspace" style="width:10%;"></div>
+               <div class="textaward">
+                  <h1>  ETSIT: Best record award, 1st grade GIFIS degree. </h1>
+                  <h2> 2022</h2>
+               </div>
+               <div class="imgaward">
+                  <div class="vspace" style="height:10%;"></div>
+                  <img src="../../images/best_record_1.png">
+               </div>
+               <div class="hspace" style="width:10%;"></div>
+            </div>
+            <br>
+            <div class="award">
+               <div class="hspace" style="width:10%;"></div>
+               <div class="textaward">
+                  <h1> XXXII National Physics Olympiad: Silver medal</h1>
+                  <h2> 2021</h2>
+               </div>
+               <div class="imgaward">
+                  <div class="vspace" style="height:10%;"></div>
+                  <img src="../../images/rsef.png">
+               </div>
+
+               <div class="hspace" style="width:10%;"></div>
+            </div>
+
         </div>
       </main>
    </body>

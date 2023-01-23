@@ -63,10 +63,14 @@ a {
   
 .title h1 {
   font-size: 60px;
+  opacity: 0;
+  filter: blur(8px);
 }
   
 .title h2 { 
   font-size: 24px;
+  opacity: 0;
+  filter: blur(10px);
 }
 
 .vspace{
