@@ -86,8 +86,9 @@ function darkLightToggle() {
         document.querySelectorAll("p").forEach(e => e.style.color = 'black');
         document.querySelectorAll("h2").forEach(e => e.style.color = 'black');
 
-        //Keeps topnav elements white colored
+        //Keeps topnav and bottom elements white colored
         document.getElementById("topnav").querySelectorAll("a").forEach(e => e.style.color = 'white');
+        document.getElementById("abtme").querySelectorAll("a").forEach(e => e.style.color = 'white');
 
         lightdivbg();
 
@@ -158,4 +159,4 @@ function apaga(){
     }else{
         darkdivbg();
     }
-}  
+} 
