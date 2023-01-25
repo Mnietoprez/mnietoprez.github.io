@@ -88,7 +88,7 @@ function darkLightToggle() {
 
         //Keeps topnav and bottom elements white colored
         document.getElementById("topnav").querySelectorAll("a").forEach(e => e.style.color = 'white');
-        document.getElementById("abtme").querySelectorAll("a").forEach(e => e.style.color = 'white');
+        document.getElementById("bottomabtme").style.color = 'white';
 
         lightdivbg();
 
