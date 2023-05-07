@@ -1,0 +1,382 @@
+nav {
+  background-color: rgba(0, 0, 0, 1); 
+  width:99%;
+  top: 0;
+  border-radius: 0px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 50;
+}
+  
+nav ul {
+  list-style: none;
+  display: flex;
+}
+  
+nav li {
+  margin: 0 10px;
+}
+
+nav darklight {
+  margin-left: auto;
+  padding-right: 70px;
+}
+  
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(to bottom, black, rgb(42, 42, 42));
+}
+
+h1 {
+  color: white;
+  font-family: Arial; 
+}
+
+h2 {
+  color: white;
+  font-family: Arial; 
+}
+
+p {
+  color: white;
+  font-family: Arial; 
+}
+
+a {
+  color: white;
+  font-family: Arial; 
+  text-decoration: underline;
+}
+
+.title {
+  width: 100%;
+  height: 20%;
+  display:flex
+}
+  
+.title h1 {
+  font-size: 20px;
+  padding-left:5%;
+}
+
+.vspace{
+  width: 100%;
+  height: 0px;
+}
+
+.hspace {
+  width:6%;
+  height: 100%;
+}
+
+.maincontainer {
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+
+.pubcontainer {
+  background-color: rgba(145, 1, 1, 0);
+  width: 36.4%;
+  height: 100%;
+  position: relative;
+  display:block;
+}
+
+.prepubs {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 80%;
+  z-index: 1;
+  position: relative;
+  display:flex;
+}
+
+.pubs {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.pubcontainer h1 {
+  padding-top: 10px;
+}
+
+.pubs p {
+  padding-left:10px;
+  padding-right:10px;
+  font-size: 15px;
+}
+
+.pubs a {
+  padding-left:10px;
+  padding-bottom: 27px;
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+}
+
+.languagecontainer {
+  background-color: rgba(0, 0, 0, 0);  
+  width: 60%;
+  height: 100%;
+  display:block;
+}
+
+.languagecontainer h1 {
+
+  padding-left: 6%;
+  padding-top: 10px;
+  font-size: 27px;
+}
+
+.prelanguageapp {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 80%;
+  display:flex;
+  border-radius:10px;
+}
+
+.languageapp {
+  background-color: rgba(0, 0, 0, 0.3);  
+  width: 92%;
+  height: 100%;
+  display:flex;
+  border-radius:10px ;
+}
+
+.langpreview {
+  background: rgba(0, 0, 0, 0.3);  
+  width: 75%;
+  height: 100%;
+  border-radius:10px ;
+  position: relative;
+  overflow:hidden;
+  text-align:center;
+  display:block;
+}
+
+.langimg{
+  padding-top: 50px;
+  width: auto;
+  height: 40%;
+  overflow:hidden;
+}
+
+.langpreview h1 {
+  font-size: 25px;
+  padding-left:0px;
+}
+
+.langpreview a {
+  font-size: 20px;
+}
+
+.langpreview p {
+  font-size: 14px;
+  padding-left:31px;
+  padding-left:0px;
+}
+
+.languages {
+  background-color: rgba(0, 0, 0, 0);  
+  width: 25%;
+  height: 100%;
+  display:block;
+  z-index: 2;
+  text-align:center;
+}
+
+.thelanguage {
+  background-color: rgba(0, 0, 0, 0);  
+  width: 100%;
+  height: 20%;
+  display:flex;
+  z-index: 2;
+}
+
+.languages:hover .language1{
+  transition: 0.3s;
+  filter:blur(5px);
+}
+.languages:hover .language2{
+  transition: 0.3s;
+  filter:blur(5px);
+}
+.languages:hover .language3{
+  transition: 0.3s;
+  filter:blur(5px);
+}
+.languages:hover .language4{
+  transition: 0.3s;
+  filter:blur(5px);
+}
+.languages:hover .language5{
+  transition: 0.3s;
+  filter:blur(5px);
+}
+
+.languages .language1:hover {
+  transition: 0.3s;
+  transform:scaleX(1.1);
+  filter:blur(0px);
+}
+
+.languages .language2:hover {
+  transition: 0.3s;
+  transform:scaleX(1.1);
+  filter:blur(0px);
+}
+
+.languages .language3:hover {
+  transition: 0.3s;
+  transform:scaleX(1.1);
+  filter:blur(0px);
+}
+
+.languages .language4:hover {
+  transition: 0.3s;
+  transform:scaleX(1.1);
+  filter:blur(0px);
+}
+
+.languages .language5:hover {
+  transition: 0.3s;
+  transform:scaleX(1.1);
+  filter:blur(0px);
+}
+
+.languages h1 { 
+  font-size: 15px;
+  padding-left:0px;
+}
+
+.language1 { 
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.language2 { 
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.language3 { 
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+.language4 { 
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.language5 { 
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 4;
+  
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.appcontainer{
+  background-color: rgba(0,0,0,0.1); 
+  width: 100%;
+  height: 50%;
+  display:block;
+  text-align: center;
+}
+
+.appcontainer h1{
+  padding-top: 25px;
+  font-size: 25px;
+}
+
+.projectcontainer {
+  width:100%;
+  height: 60%;
+  background-color: rgba(165, 42, 42, 0);
+  display: flex;
+}
+
+.project {
+  width:25.3%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius:10px ;
+  display:block;
+}
+
+.projectdesc {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity:0;
+  display:block;
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius:10px;
+}
+
+.projectdesc:hover {
+  transition: 0.15s;
+  opacity:1;
+}
+
+.projectdesc p{
+  font-size: 20px;
+}
+
+.projectimage {
+  width:100%;
+  height: 80%;
+  background-color: rgba(0,0,0,0);
+  text-align: center;
+  border-radius:10px ;
+  z-index: 2;
+  position:relative;
+}
+
+.projectimage img {
+  width:100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.project p {
+  font-size: 15px;
+  z-index: 3;
+}
+
+.project a {
+  padding-left: 20px;
+  font-size: 14px;
+  z-index: 3;
+}

@@ -9,132 +9,28 @@
       <nav id="topnav">
          <ul>
             <li><a href="index.html" style="font-family: Arial; font-size: 14px;">Home</a></li>
-            <li><a href="sections/cv/cv.html" style="font-family: Arial; font-size: 14px;">About me</a></li>
             <li><a href="https://github.com/Mnietoprez" style="font-family: Arial; font-size: 14px;">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/mnieper/" style="font-family: Arial; font-size: 14px;">LinkedIn</a></li>
          </ul>
-            <darklight><a onclick=darkLightToggle() style="font-family: Arial;  font-size: 20px;">◐</a></darklight>
       </nav>
       <header>
-        <div class=" vspace" style="height: 250px;"></div>
-         <div class="title">
-            <h1 id="titular">Marco Nieto Pérez</h1>
-            <h2 id="subtitular">Personal Portfolio</h2>
-         </div>
-         <div class=" vspace" style="height: 250px;"></div>
       </header>
       <main>
-         <div class="maincontainer"> 
-            <div class="hspace" style="width: 3.6%"></div>
-            <div class="pubcontainer">
-               <h1 style="font-size: 27px;">Recent publications</h1>
-               <div class="prepubs">
-                  <div class="pubs">
-                     <p><span>29/12/2022 Determining the number of roots of a given polynomial through
-                        its newton fractal and deep-learning techniques </span><button onclick= openP2()>⤓</button></p>
-                     <p><span>25/12/2022 Estudio de la frontera termodinámica para la transición de fase al
-                        plasma de quark-gluones </span><button onclick= openP1()>⤓</button></p>
-                     <a href="publications/publications.html">View all publications</a>
-                  </div>
+         <div style="width:100%; height: 100vh; display: block">
+            <div class="vspace" style="height: 30%"></div>
+               <div class="title">
+                  <h1 id="titular">Marco Nieto Pérez</h1>
+                  <h2 id="subtitular">Personal Portfolio</h2>
                </div>
-            </div>
-            <div class="languagecontainer">
-               <h1 id="testea">Known programming languages</h1>
-               <div class="prelanguageapp" id="prelanguageappid">
-                  <div class="hspace"></div>
-                     <div class="languageapp">
-                        <div class="languages">
-                           <div class="thelanguage">
-                              <div class="hspace"></div>
-                              <div class="language1" onmouseover="enciende1()" onmouseout="apaga()">
-                                 <h1>Python</h1>
-                              </div>
-                              <div class="hspace"></div>
-                           </div>
-                           
-                           <div class="thelanguage">
-                              <div class="hspace"></div>
-                              <div class="language2" onmouseover="enciende2()" onmouseout="apaga()">
-                                 <h1>Solidity</h1>
-                              </div>
-                              <div class="hspace"></div>
-                           </div>
-
-                           <div class="thelanguage">
-                              <div class="hspace"></div>
-                              <div class="language3" onmouseover="enciende3()" onmouseout="apaga()">
-                                 <h1>Javascript</h1>
-                              </div>
-                              <div class="hspace"></div>
-                           </div>
-
-                           <div class="thelanguage">
-                              <div class="hspace"></div>
-                              <div class="language4" onmouseover="enciende4()" onmouseout="apaga()">
-                                 <h1>LaTeX</h1>
-                              </div>
-                              <div class="hspace"></div>
-                           </div>
-
-                           <div class="thelanguage">
-                              <div class="hspace"></div>
-                              <div class="language5" onmouseover="enciende5()" onmouseout="apaga()">
-                                 <h1>CSS/HTML</h1>
-                              </div>
-                              <div class="hspace"></div>
-                           </div>
-                           
-                        </div>
-                        <div class="langpreview">
-                           <h1 id="presentation">Find all my repositories at <a href="https://github.com/Mnietoprez?tab=repositories">GitHub</a></h1>
-                           <p id="description" style="font-size: 14px">Hover over the words at the left to check details.</p>
-                           <img id="laimagen" class="langimg">
-                        </div>
-                     </div>
-                  <div class="hspace"></div>
-                  
-               </div>
+            <div class="vspace" style="height: 10%"></div>
+            <div class="buttoncontainer">
+               <div class="hspace" style="width: 25%"></div>
+               <button id= "button1" onclick=option1()>My works</button>
+               <div class="hspace" style="width: 25%"></div>
+               <button id= "button2" onclick=option2()>About me</button>
+               <div class="hspace" style="width: 25%"></div>
             </div>
          </div>
-         
-         
-         <div class="appcontainer">
-
-            <h1>My projects</h1>
-            <div class="vspace" style="height:50px"></div>
-            <div class="projectcontainer">
-               <div class="hspace"></div>
-               <div class="project">
-                  <p><span>Newton's fractal interactive generator</span><a href="https://mnietoprez.github.io/newton-fractal-generator/">Launch</a></p>
-                  <div class="projectimage">
-                     <div class="projectdesc">
-                        <p>This program generates a newton fractal and automatically saves it in your computer, for any desired grade between 3 and 7.</p>
-                     </div>
-                     <img src="images/fractal.png">
-                  </div>
-               </div>
-               <div class="hspace"></div>
-               <div class="project">
-                  <p><span>Empty project</span><a href="#">Launch</a></p>
-               </div>
-               <div class="hspace"></div>
-               <div class="project">
-                  <p><span>Empty project</span><a href="#">Launch</a></p>
-               </div>
-            </div>
-
-            
-         </div>
-         
-         <div class="abtme"> 
-            <div class="hspace" style="width: 40%;"></div>
-            <div class="abtlink">
-               <br>
-               <a id="bottomabtme" href="/sections/cv/cv.html">About me</a>
-            </div>
-            <div class="hspace" style="width: 40%;"></div>
-         </div>
-
       </main>
    </body>
 </html>
