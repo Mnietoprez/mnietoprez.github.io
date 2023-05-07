@@ -14,89 +14,28 @@
          </ul>
       </nav>
       <header>
-         
+         <div id="particles-js"></div>
       </header>
       <main>
-         <div style="height:100vh; width:100%; overflow: hidden;">
-            <div class="vspace" style="height:10%"></div>
-            <div class="maincontainer"> 
-               <div class="hspace" style="width: 3.6%"></div>
-               <div class="pubcontainer">
-                  <div class="title">
-                     <h1>My works</h1>
-                  </div>
-                  <div class="prepubs">
-                     <div class="pubs">
-                        <p><span>29/12/2022 Determining the number of roots of a given polynomial through
-                           its newton fractal and deep-learning techniques </span><button onclick= openP2()>⤓</button></p>
-                        <p><span>25/12/2022 Estudio de la frontera termodinámica para la transición de fase al
-                           plasma de quark-gluones </span><button onclick= openP1()>⤓</button></p>
-                        <a href="../works/works.html">View all works</a>
-                     </div>
-                  </div>
+         <script src="particles.js"></script>
+         <script src="app.js"></script>
+
+         <div class="vspace" style="height: 7vh"></div>
+         <div class="pubcontainer">
+            <h1>My works</h1>
+            <div class="prepubs">
+               <div class="pubs">
+                  <p><span>29/12/2022 Determining the number of roots of a given polynomial through
+                     its newton fractal and deep-learning techniques </span><button onclick= openP2()>⤓</button></p>
+                  <p><span>25/12/2022 Estudio de la frontera termodinámica para la transición de fase al
+                     plasma de quark-gluones </span><button onclick= openP1()>⤓</button></p>
                </div>
-               <div class="languagecontainer">
-                  <div class="title">
-                     <h1 style="font-size: 20px;padding-left:5%;">Known programming languages</h1>
-                  </div>
-                  <div class="prelanguageapp" id="prelanguageappid">
-                     <div class="hspace"></div>
-                        <div class="languageapp">
-                           <div class="languages">
-                              <div class="thelanguage">
-                                 <div class="hspace"></div>
-                                 <div class="language1" onmouseover="enciende1()" onmouseout="apaga()">
-                                    <h1>Python</h1>
-                                 </div>
-                                 <div class="hspace"></div>
-                              </div>
-                              
-                              <div class="thelanguage">
-                                 <div class="hspace"></div>
-                                 <div class="language2" onmouseover="enciende2()" onmouseout="apaga()">
-                                    <h1>Solidity</h1>
-                                 </div>
-                                 <div class="hspace"></div>
-                              </div>
-   
-                              <div class="thelanguage">
-                                 <div class="hspace"></div>
-                                 <div class="language3" onmouseover="enciende3()" onmouseout="apaga()">
-                                    <h1>Javascript</h1>
-                                 </div>
-                                 <div class="hspace"></div>
-                              </div>
-   
-                              <div class="thelanguage">
-                                 <div class="hspace"></div>
-                                 <div class="language4" onmouseover="enciende4()" onmouseout="apaga()">
-                                    <h1>LaTeX</h1>
-                                 </div>
-                                 <div class="hspace"></div>
-                              </div>
-   
-                              <div class="thelanguage">
-                                 <div class="hspace"></div>
-                                 <div class="language5" onmouseover="enciende5()" onmouseout="apaga()">
-                                    <h1>CSS/HTML</h1>
-                                 </div>
-                                 <div class="hspace"></div>
-                              </div>
-                              
-                           </div>
-                           <div class="langpreview">
-                              <h1 id="presentation">Find all my repositories at <a href="https://github.com/Mnietoprez?tab=repositories">GitHub</a></h1>
-                              <p id="description" style="font-size: 14px">Hover over the words at the left to check details.</p>
-                              <img id="laimagen" class="langimg">
-                           </div>
-                        </div>
-                     <div class="hspace"></div>
-                  </div>
-               </div>
+               <a href="../works/works.html">View all works</a>
             </div>
+         </div>
+         <div class="vspace" style="height: 2vh"></div>
             <div class="appcontainer">
                <h1>My projects</h1>
-               <div class="vspace" style="height:10%"></div>
                <div class="projectcontainer">
                   <div class="hspace"></div>
                   <div class="project">
@@ -118,7 +57,6 @@
                   </div>
                </div>
             </div>
-         </div>
       </main>
    </body>
 </html>

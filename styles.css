@@ -1,13 +1,14 @@
 nav {
   background-color: rgba(0, 0, 0, 1); 
-  width:99%;
+  width:98.7%;
   top: 0;
-  border-radius: 0px; 
+  height: 7%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   z-index: 50;
+  border:2px solid rgb(0, 247, 255);
 }
   
 nav ul {
@@ -30,7 +31,7 @@ nav a {
 }
 
 body {
-  background: linear-gradient(to bottom, black, rgb(42, 42, 42));
+  background-color: black;
 }
 
 h1 {
@@ -62,15 +63,22 @@ a {
 }
   
 .title h1 {
-  font-size: 60px;
+  font-size: 80px;
   opacity: 0;
   filter: blur(8px);
 }
   
 .title h2 { 
-  font-size: 24px;
+  font-size: 30px;
   opacity: 0;
   filter: blur(10px);
+}
+
+#particles-js{
+  width: 99%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  position: absolute;
 }
 
 .vspace{
@@ -91,11 +99,23 @@ a {
 }
 
 .buttoncontainer button{
-  border-radius: 10px;
+  border-radius: 0px;
   width: 12.5%;
   height:100%;
   font-size:2vw;
   color:white;
-  background-color: rgba(0,0,0,0);
+  background-color: rgb(0,0,0);
   cursor:pointer;
+  border:2px solid rgb(0, 247, 255);
 }
+
+nav:hover {
+  transition: 0.15s;
+  background-color: rgb(3, 32, 59);
+}
+
+.buttoncontainer button:hover {
+  transition: 0.15s;
+  background-color: rgb(3, 32, 59);
+}
+
