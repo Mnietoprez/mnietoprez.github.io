@@ -1,5 +1,5 @@
 nav {
-  background-color: rgba(0, 0, 0, 1); 
+  background-color: rgba(0, 0, 0, 0.9); 
   width:98.7%;
   height: 7vh;
   top: 0;
@@ -59,7 +59,7 @@ a {
   width: 99%;
   height: 100%;
   background: rgb(0, 0, 0);
-  position: absolute;
+  position: fixed;
   z-index: -50;
 }
 
@@ -83,12 +83,12 @@ a {
 }
 
 .prepubs {
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
   width: 100%;
   height: 80%;
   display:block;
   text-align: center;
-  border:2px solid rgb(21, 255, 0);
+  border:2px solid rgb(0, 247, 255);
 }
 
 .pubs {
@@ -125,9 +125,9 @@ a {
 .projectcontainer {
   width:100%;
   height: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
   display: flex;
-  border:2px solid rgb(255, 0, 255);
+  border:2px solid rgb(0, 247, 255);
 }
 
 .project {
@@ -141,9 +141,10 @@ a {
   opacity:0;
   display:block;
   position:absolute;
-  width: 100%;
-  height: 100%;
+  width: 101%;
+  height: 102%;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .projectdesc:hover {
@@ -160,7 +161,6 @@ a {
   height: 80%;
   background-color: rgba(0,0,0,0);
   text-align: center;
-  border-radius:10px ;
   z-index: 2;
   position:relative;
 }
@@ -170,7 +170,7 @@ a {
   height: 100%;
   overflow: hidden;
   z-index: 1;
-  border-radius: 10px;
+  border:2px solid rgb(0, 247, 255);
 }
 
 .project p {
@@ -186,20 +186,20 @@ a {
 
 nav:hover {
   transition: 0.15s;
-  background-color: rgb(3, 32, 59);
+  background-color: rgb(0, 32, 28);
 }
 
 .buttoncontainer button:hover {
   transition: 0.15s;
-  background-color: rgb(3, 32, 59);
+  background-color: rgb(0, 32, 28);
 }
 
 .pubcontainer .prepubs:hover {
   transition: 0.15s;
-  background-color: rgb(3, 59, 28);
+  background-color: rgb(0, 32, 28);
 }
 
 .appcontainer .projectcontainer:hover {
   transition: 0.15s;
-  background-color: rgb(59, 3, 51);
+  background-color: rgb(0, 32, 28);
 }
